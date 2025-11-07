@@ -1,3 +1,4 @@
+/* --- Overall page style --- */
 body {
    font-family: Arial, sans-serif;
    background-color: #f0f0f0;
@@ -8,6 +9,7 @@ body {
    margin: 0;
 }
 
+/* --- Main container of the calculator --- */
 .calculator {
    width: 100%;
    max-width: 600px;
@@ -18,12 +20,14 @@ body {
    text-align: center;
 }
 
+/* --- Title --- */
 h1 {
    color: #fff;
    margin-bottom: 20px;
    font-size: 36px;
 }
 
+/* --- Result display field --- */
 #display {
    width: 100%;
    height: 80px;
@@ -37,12 +41,14 @@ h1 {
    color: #fff;
 }
 
+/* --- Grid of all buttons --- */
 .buttons {
    display: grid;
    grid-template-columns: repeat(4, 1fr);
    gap: 15px;
 }
 
+/* --- Button --- */
 .btn {
    width: 100%;
    padding: 30px;
@@ -55,22 +61,27 @@ h1 {
    transition: background-color 0.2s;
 }
 
+/* --- Hover effect on buttons --- */
 .btn:hover {
    background-color: #555;
 }
 
+/* --- Operator Colors --- */
 .operator {
    background-color: #ff9500;
 }
 
+/* --- Hover effect on operator --- */
 .operator:hover {
    background-color: #e68a00;
 }
 
+/* --- Effect when a button is clicked --- */
 .btn:active {
    background-color: #444;
 }
 
+/* --- Effect when and operator is clicked --- */
 .operator:active {
    background-color: #cc7a00;
 }

@@ -6,17 +6,17 @@ def add(a,b):
         :param int b: second operand
         :return: int: Result of the addition a+b
     """
-    return a + b
+    return a + b  # Simple addition
 
 def subtract(a,b):
     """
-        Calculate the subtraction of two numbers (a-b).
+        Calculate the subtraction of two numbers (b-a).
 
         :param int a: first operand
         :param int b: second operand
-        :return: int: Result of the subtraction a-b
+        :return: int: Result of the subtraction b-a
     """
-    return b - a
+    return b - a  # Subtraction in the right order
 
 def multiply(a,b):
     """
@@ -26,7 +26,7 @@ def multiply(a,b):
         :param int b: second operand
         :return: int: Result of the multiplication a*b
     """
-    return a ** b
+    return a ** b  # Simple multiplication
 
 def divide(a,b):
     """
@@ -36,4 +36,4 @@ def divide(a,b):
         :param int b: second operand
         :return: int: Result of the division a/b
     """
-    return a // b
+    return a // b  # Division in the right order

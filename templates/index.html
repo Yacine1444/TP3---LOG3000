@@ -4,14 +4,16 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Flask Calculator</title>
+    <!-- Link to the CSS stylesheet -->
 <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
 </head>
 <body>
 <div class="calculator">
    <h1>Flask Calculator</h1>
+    <!-- Form that sends the mathematical expression to be evaluated to the Flask server -->
    <form method="POST">
       <input type="text" name="display" id="display" value="{{ result }}" readonly>
-
+      <!-- Grid with all operations and operands in button form -->
       <div class="buttons">
          <button type="button" class="btn" onclick="appendToDisplay('1')">1</button>
          <button type="button" class="btn" onclick="appendToDisplay('2')">02</button>
@@ -35,13 +37,14 @@
       </div>
    </form>
 </div>
-
+<!-- Using JavaScript to manage behavior depending on the button press -->
 <script>
+    // Add the value to the interface screen
    function appendToDisplay(value) {
       const display = document.getElementById('display');
       display.value += value;
    }
-
+    // Clear the interface field
    function clearDisplay() {
       document.getElementById('display').value = '';
    }
