@@ -36,4 +36,4 @@ def divide(a,b):
         :param int b: second operand
         :return: int: Result of the division a/b
     """
-    return a // b  # Division in the right order
+    return a / b  # Division in the right order
