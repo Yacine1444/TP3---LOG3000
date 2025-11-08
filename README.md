@@ -38,6 +38,8 @@ Il s’agit d’une calculatrice développée avec Flask (Python). Elle permet d
    http://localhost:5000
 3. **Utiliser l'interface avec les différents boutons:**
 - Cliquer sur les chiffres (opérandes) et les opérateurs pour composer votre expression mathématique.
+- Cliquer sur le bouton `=` pour calculer l'expression et afficher le résultat sur le champ.
+- Cliquer sur le bouton `C` pour effacer les éléments dans le champ.
 
 ## Test
 Il existe des test pour les trois fichiers suivant:
