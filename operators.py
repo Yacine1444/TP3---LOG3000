@@ -26,7 +26,7 @@ def multiply(a,b):
         :param int b: second operand
         :return: int: Result of the multiplication a*b
     """
-    return a ** b  # Simple multiplication
+    return a * b  # Simple multiplication
 
 def divide(a,b):
     """
