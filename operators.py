@@ -16,7 +16,7 @@ def subtract(a,b):
         :param int b: second operand
         :return: int: Result of the subtraction b-a
     """
-    return b - a  # Subtraction in the right order
+    return a - b  # Subtraction in the right order
 
 def multiply(a,b):
     """
